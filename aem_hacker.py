@@ -469,6 +469,7 @@ def exposed_post_servlet(base_url, my_host, debug=False, proxy=None):
 
     return results
 
+/*
 
 @register('create_new_nodes')
 def create_new_nodes(base_url, my_host, debug=False, proxy=None):
@@ -574,6 +575,7 @@ def create_new_nodes2(base_url, my_host, debug=False, proxy=None):
 
     return results
 
+*\
 
 @register('loginstatus_servlet')
 def exposed_loginstatus_servlet(base_url, my_host, debug=False, proxy=None):
@@ -867,6 +869,7 @@ def exposed_reports(base_url, my_host, debug=False, proxy=None):
 
     return results
 
+/*
 
 @register('salesforcesecret_servlet')
 def ssrf_salesforcesecret_servlet(base_url, my_host, debug=False, proxy=None):
@@ -940,7 +943,6 @@ def ssrf_salesforcesecret_servlet(base_url, my_host, debug=False, proxy=None):
         results.append(f)
 
     return results
-
 
 @register('reportingservices_servlet')
 def ssrf_reportingservices_servlet(base_url, my_host, debug=False, proxy=None):
@@ -1040,7 +1042,6 @@ def ssrf_reportingservices_servlet(base_url, my_host, debug=False, proxy=None):
         results.append(f)
 
     return results
-
 
 @register('sitecatalyst_servlet')
 def ssrf_sitecatalyst_servlet(base_url, my_host, debug=False, proxy=None):
@@ -1353,6 +1354,7 @@ def ssrf_opensocial_makeRequest(base_url, my_host, debug=False, proxy=None):
 
     return results
 
+*\
 
 @register('swf_xss')
 def swf_xss(base_url, my_host, debug=False, proxy=None):
